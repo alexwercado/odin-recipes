@@ -1,16 +1,20 @@
-
-
-div {
-    color: black;
-    background-color: #f1f1f1;
-    border: 1px solid black;
-    padding: 10px;
+/* TITULO Y EFECTOS DEL TITULO */
+.titulo {
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    display: inline-block;
+    background-color: rgb(156, 97, 224);
+    text-align: center;
     margin: 10px;
-    }
+    padding: 5px 10px;
+    border-radius: 10px;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
 
+.titulo:hover {
+    background-color: rgb(100, 50, 150);
+}
 
-p {
-    color: red;
-    font-size: 20px;
-    }
-    
