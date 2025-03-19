@@ -1,12 +1,13 @@
 /* TITULO Y EFECTOS DEL TITULO */
 .titulo {
+    box-sizing: border-boxs;
     font-family: "Raleway", sans-serif;
     font-size: 40px;
     color: #ffffff;
     display: inline-block;
     background-color: rgb(156, 97, 224);
     align-items: center;
-    margin: 10px auto;
+    margin: 10px 10px auto;
     padding: 20px 50px;
     border-radius: 15px;
     -webkit-transition: all 0.4s ease 0s;
@@ -19,12 +20,17 @@
 }
 
 /* COLORES LINKS Y ANIMACION */
+body {
+    text-align: center;
+}
 
 .links {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
     color: rgb(156, 97, 224);
     letter-spacing: 1px;   
+    display: inline-block;
+    padding: 10px 550px;
 }
 
 .links:hover {
@@ -45,5 +51,18 @@
 
 .imagen:hover {
     box-shadow: 0px 0px 50px 0px rgba(156, 97, 224, 0.75);
+}
+
+.image-button {
+    position: absolute;
+    top: 59.3%;
+    left: 50.7%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
