@@ -1,4 +1,9 @@
 /* TITULO Y EFECTOS DEL TITULO */
+
+* {
+    align-items: center;
+}
+
 .titulo {
     box-sizing: border-boxs;
     font-family: "Raleway", sans-serif;
@@ -21,7 +26,7 @@
 
 /* COLORES LINKS Y ANIMACION */
 body {
-    text-align: center;
+    align-items: center;
 }
 
 .links {
@@ -30,7 +35,7 @@ body {
     color: rgb(156, 97, 224);
     letter-spacing: 1px;   
     display: inline-block;
-    padding: 10px 550px;
+    padding: 10px 55px;
 }
 
 .links:hover {
@@ -40,7 +45,8 @@ body {
 /* IMAGEN */
 
 .imagen {
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
     border-radius: 100px;
     align-self: center;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
@@ -55,14 +61,16 @@ body {
 
 .image-button {
     position: absolute;
-    top: 59.3%;
-    left: 50.7%;
+    top: 68%;
+    left: 67.5%;
     transform: translate(-50%, -50%);
     padding: 10px 20px;
     background-color: rgba(0, 0, 0, 0);
-    color: white;
+    color: black    ;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
 }
 
